@@ -11,6 +11,11 @@
 
     <artifactId>cloud-consumer-order80</artifactId>
     <dependencies>
+        <!--eureka-client-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <!--引入自己定义的api通用包，可以使用paymant支付Entity-->
         <dependency>
             <groupId>com.moqi.springcloud</groupId>
