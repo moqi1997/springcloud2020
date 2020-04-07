@@ -23,3 +23,7 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.moqi.springcloud.entities
+
+logging:
+  level:
+    com.moqi.springcloud.service.PaymentFeignService: debug
