@@ -1,0 +1,4 @@
+###consul端口号
+server:
+  port: 9001
+

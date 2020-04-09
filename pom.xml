@@ -20,6 +20,7 @@
         <module>cloud-consumer-openfeign-order80</module>
         <module>cloud-provider-hystrix-payment8001</module>
       <module>cloud-consumer-feign-hystrix-order80</module>
+        <module>cloud-comcumer-hystrix-dashboard9001</module>
     </modules>
 
     <name>Maven</name>
